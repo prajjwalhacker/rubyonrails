@@ -6,11 +6,10 @@
 # Read more: https://github.com/cyu/rack-cors
 
 
-Rails.application.config.hosts << "localhost:3000"
 
  Rails.application.config.middleware.insert_before 0, Rack::Cors do
    allow do
-     origins 'localhost:3000'
+     origins '*'
 
      resource '*',
        headers: :any,
