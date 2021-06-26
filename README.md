@@ -1,24 +1,14 @@
-# README
+This is the Backend Part of the Project, deployment link is -> https://studentruby.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+For Running the Project on local.
 
-* Ruby version
+1. Clone the Project with Ruby version 3.0.1  installed and Rails version 6.1.4 installed.
+2. Then Run the command `bundle install` to install dependencies.
 
-* System dependencies
 
-* Configuration
+To Run the Server, run
+## `rails server` 
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
